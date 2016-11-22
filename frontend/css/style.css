@@ -86,12 +86,12 @@ a:hover,a:focus,.a:active {
 
 /*======= 2.Helper classes ======== */
 .section {
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sub-title {
-  margin-bottom: 40px;
+  margin-bottom:20px;
   font-size: 15px;
 }
 
@@ -165,6 +165,7 @@ a:hover,a:focus,.a:active {
 .bg-img-1 {
   background: url("../images/bg.jpg") no-repeat;
   background-size: cover;
+	background-position: center top;
   position: relative;
 }
 
@@ -368,10 +369,14 @@ a:hover,a:focus,.a:active {
 
 .logo {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 24px;
+	line-height: 50px;
   color: #ffffff !important;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.logo span{
+  font-size: 55px;
 }
 
 .navbar-toggle {
@@ -406,8 +411,13 @@ a:hover,a:focus,.a:active {
 /*======= 6. Home =======*/
 
 .home-fullscreen {
-  height: 100%;
-  min-height: 400px;
+  /*height: 100%;*/
+  min-height: 550px;
+}
+@media screen and (max-width:1024px){
+	.home-fullscreen {
+		min-height: 250px;
+	}
 }
 
 .home-wrapper {
