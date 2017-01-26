@@ -76,7 +76,7 @@ ul {
   position: relative;
   /* Create a positioning context */
   color: #484747;
-  margin: 0 0 10px 0;
+  margin: 0 0 0px 0;
   /* Give each list item a left margin to make room for the numbers */
   padding: 2px 8px 2px 0;
   /* Add some spacing around the content */
@@ -145,7 +145,7 @@ img {
 /* spacing */
 .section-space,
 .space-lg {
-  padding: 100px 0; }
+  padding: 70px 0; }
 
 .space-sm {
   padding: 30px 0; }
@@ -228,3 +228,30 @@ img {
   animation-duration: 1s; }
 
 /*# sourceMappingURL=base.css.map */
+
+.thumb {
+  border-radius: 3px;
+  /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);*/
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.thumb:hover .thumb-img {
+  overflow: hidden;
+  position: relative;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.thumb-img {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 100%;
+	border:2px solid #DDD;
+  transition: all 0.2s ease-out;
+}
+.thumb p {
+	color: #333;
+}
