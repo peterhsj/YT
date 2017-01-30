@@ -37,6 +37,15 @@
 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+
 <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -195,14 +204,10 @@
         <div class="footer-email"> <i class="icon-mail"></i> <a href="mailto:younger.tone@gmail.com">E-mail：younger.tone@gmail.com</a> </div>
         <!-- // .footer-email -->
         
-        <div class="footer-mobile"> <i class="icon-phone"></i> Line ID：younger.tone </div>
-        <div class="footer-social"> <a href="#"><i class="icon-facebook"></i></a> 
-          <!-- a href="#"><i class="icon-twitter"></i></a>
-                            <a href="#"><i class="icon-flickr"></i></a>
-                            <a href="#"><i class="icon-github"></i></a>
-                            <a href="#"><i class="icon-tumblr"></i></a>
-                            <a href="#"><i class="icon-dribbble"></i></a --> 
-        </div>
+        <div class="footer-social">
+					<a class="line" href="http://line.naver.jp/ti/p/biy2tSi_f6" target="_blank"><i class="icon-line_square"></i></a>
+					<a class="fb" href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/" target="_blank"><i class="icon-facebook"></i></a>
+				</div>
         <!-- // .footer-social --> 
         
       </div>
@@ -238,7 +243,9 @@
       </div>
       <div class="col-md-3 space-mb">
         <h4>Facebook</h4>
-        <div class="footer-tags"> </div>
+        <div class="fb-page" data-href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/" data-tabs="timeline,messages" data-width="250" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+          <blockquote cite="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/">養聲堂科技</a></blockquote>
+        </div>
       </div>
     </div>
     <!-- // .row --> 
