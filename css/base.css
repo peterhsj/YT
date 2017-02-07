@@ -32,7 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #484747; }
 
 p {
-  color: #a3a2a2; }
+  color: #666666;
+	font-size:15px;
+}
 
 /* links */
 a {

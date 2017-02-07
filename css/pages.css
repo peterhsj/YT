@@ -1346,6 +1346,19 @@ iframe {
 /* -----------------------------------------------------------------------------
 // 18. SITE MAP
 // ----------------------------------------------------------------------------- */
+.list-chevron li {
+  font-size: 18px;
+  margin-left: 15px;
+	color:#f19149;
+	font-weight: bolder;
+}
+.list-chevron li p {
+  font-size: 15px;
+  margin-left: 15px;
+	color:#666666;
+	font-weight: normal;
+}
+
 .site-map .list-chevron.nested {
   margin-top: 10px;
   margin-left: 15px; }
@@ -1544,7 +1557,7 @@ iframe {
     background-color: #7dbd22; }
 
 .list-chevron.text {
-  color: #a3a2a2; }
+	/*color: #a3a2a2; }*/}
 
 /* -----------------------------------------------------------------------------
 // 20. SHOP
